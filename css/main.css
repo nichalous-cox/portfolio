@@ -1,1 +1,52 @@
-hi
+@font-face {
+    font-family: 'BlackJack';
+    src: url('fonts/blackjack-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brawler';
+    src: url('fonts/brawler-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.row {
+	padding: 50px 0;
+}
+
+header {
+	padding: 50px 0;
+	background-color: pink;
+}
+
+.title-cover {
+	background-color: #fff;
+	padding: 20px;
+	border: solid 5px #b3ffff;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.buttons-wrap img {
+	width: 50px;
+	height: auto;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Blackjack', sans-serif;
+
+}
+
+h2 {
+	font-family: 'Blackjack', sans-serif;
+}
+
+p {
+	font-family: 'Brawler', serif;
+	font-size: 18px;
+	line-height: 26px;
+
+}
